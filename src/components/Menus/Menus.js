@@ -26,11 +26,10 @@ const Menus = ({ toggle }) => {
             <GiSkills /> Tech Skills
           </div>
           <div className="nav-link">
-            <FcAbout /> About
-          </div>
-
-          <div className="nav-link">
             <FcVideoProjector /> Projects
+          </div>
+          <div className="nav-link">
+            <FcAbout /> About
           </div>
           <div className="nav-link">
             <FcBusinessContact /> Contact
@@ -47,11 +46,10 @@ const Menus = ({ toggle }) => {
         <GiSkills title="Skill" />
       </div>
       <div className="nav-link">
-        <FcAbout title="About" />
-      </div>
-
-      <div className="nav-link">
         <FcVideoProjector title="Projects" />
+      </div>
+      <div className="nav-link">
+        <FcAbout title="About" />
       </div>
       <div className="nav-link">
         <FcBusinessContact title="Contact" />

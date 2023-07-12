@@ -1,0 +1,72 @@
+.project-mai-div h1{
+    color: rgb(244, 80, 15);
+    text-transform: uppercase;
+}
+.project-mai-div hr{
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 550px;
+}
+.project-mai-div p{
+    margin-left: 50px;
+}
+/* card project*/
+.project-card-div{
+    margin-left: 40px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.project-card:hover{
+    cursor: pointer;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+.project-card-div span{
+    position: absolute;
+    margin-left: -10px;
+    margin-top: -20px;
+    background-color: rgb(157, 230, 252);
+    border-radius: 30px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 13px;
+}
+.project-use-skills p{
+    font-size: 15px;
+    margin-left: -5px;
+    margin: 5px;
+    cursor: pointer;
+}
+.project-use-skills p{
+    background-color: rgb(9, 220, 220);
+    border-radius: 20px ;
+    font-size: 13px;
+    padding: 5px;
+
+}
+.project-view-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0px;
+}
+.project-view-div a{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: rgb(244, 112, 112);
+    color: white;
+    cursor: pointer;
+    padding: 10px 30px;
+    border-radius: 9px;
+}
+.project-view-div a:hover{
+    background-color: aliceblue;
+    color: rgb(244, 112, 112);
+    border: 2px solid rgb(244, 112, 112) ;
+    transition: all 0.5s ease;
+}
+

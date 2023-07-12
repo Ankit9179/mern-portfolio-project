@@ -9,13 +9,40 @@
 }
 .skills-container-div hr{
     width: 300px;
-    margin-top: 5px;
+    margin-top: 5px; 
     margin-bottom: 5px;
-    margin: 5px auto;
-
+    margin: 5px auto; 
 }
 
 .skills-container-div p{
     text-align: center;
     margin-top: 20px;
+}
+
+/*card */
+
+.card-container{
+    /* width: 100%; */
+    margin-left: 50px;
+    cursor: pointer;
+    
+
+}
+
+
+.card-card:hover{
+    background-color: rgb(129, 92, 48);
+    color: white;
+    transition: 1s;
+    border: none;
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.alig-self-content{
+    font-size: 30px;
+    margin-right: 20px;
+}
+.media-body{
+    font-size: 20px;
+    
 }
