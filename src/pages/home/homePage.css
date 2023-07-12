@@ -1,0 +1,47 @@
+.home-container{
+    color: white;
+    height: 300px;
+    /* margin-left: 150px; */
+    padding-left: 120px;
+
+}
+.home-contant h4{
+    margin: 15px 0;
+    /* margin-left: 150px; */
+
+}
+.home-contant h1{
+    color: yellow;
+    margin-left: 10px;
+    /* margin-left: 150px; */
+
+}
+
+/* button*/
+.home-buttons{
+    margin-left: 30px;
+    margin-top: 30px;
+    /* margin-left: 150px; */
+
+}
+.home-buttons .btn-hire{
+    background-color: rgb(196, 196, 235);
+    padding: 10px;
+    letter-spacing: 2px;
+
+}
+.home-buttons .btn-hire:hover{
+    background-color: rgb(4, 4, 119);
+    padding: 10px;
+    transition: 1s;
+}
+.home-buttons .btn-cv{
+    background-color: burlywood;
+    margin-left: 50px;
+    padding: 10px;
+}
+.home-buttons .btn-cv:hover{
+    background-color: rgb(211, 123, 6);
+    padding: 10px;
+    transition: 1s;
+}

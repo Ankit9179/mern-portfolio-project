@@ -1,0 +1,21 @@
+.skills-container-div{
+    padding-left: 60px;
+    margin: 40px 0px;
+    
+}
+.skills-container-div h1{
+    text-align: center;
+    color: rgba(5, 122, 122, 0.69);
+}
+.skills-container-div hr{
+    width: 300px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin: 5px auto;
+
+}
+
+.skills-container-div p{
+    text-align: center;
+    margin-top: 20px;
+}

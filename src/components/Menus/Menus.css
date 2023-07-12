@@ -1,0 +1,26 @@
+.navebar-profile-pic img{
+    width: 100px;
+    border-radius: 90px;
+    display: flex;
+    vertical-align: middle;
+    margin:  0 auto;
+  
+}
+.nav-icon{
+    margin-top: 20px;
+    color: white;
+    /* text-align: center; */
+    margin-left: 15px;
+}
+.nav-link{
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+.nav-link:hover{
+    color: chocolate;
+}
+.nav-link svg{
+    margin-right: 2px;
+    font-size: 25px;
+}
