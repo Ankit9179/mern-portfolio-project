@@ -7,6 +7,7 @@ import {
   FcVideoProjector,
 } from "react-icons/fc";
 import { GiSkills } from "react-icons/gi";
+import { MdSchool } from "react-icons/md";
 
 const Menus = ({ toggle }) => {
   return toggle ? (
@@ -23,14 +24,18 @@ const Menus = ({ toggle }) => {
             <FcHome /> Home
           </div>
           <div className="nav-link">
+            <FcAbout /> About
+          </div>
+          <div className="nav-link">
             <GiSkills /> Tech Skills
           </div>
           <div className="nav-link">
             <FcVideoProjector /> Projects
           </div>
           <div className="nav-link">
-            <FcAbout /> About
+            <MdSchool /> Education
           </div>
+
           <div className="nav-link">
             <FcBusinessContact /> Contact
           </div>
@@ -43,13 +48,16 @@ const Menus = ({ toggle }) => {
         <FcHome title="Home" />
       </div>
       <div className="nav-link">
+        <FcAbout title="About" />
+      </div>
+      <div className="nav-link">
         <GiSkills title="Skill" />
       </div>
       <div className="nav-link">
         <FcVideoProjector title="Projects" />
       </div>
       <div className="nav-link">
-        <FcAbout title="About" />
+        <MdSchool />
       </div>
       <div className="nav-link">
         <FcBusinessContact title="Contact" />
