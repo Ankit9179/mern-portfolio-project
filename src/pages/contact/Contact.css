@@ -1,0 +1,37 @@
+.contact-main{
+    /* background-color: brown; */
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+    /* height: 500px; */
+    margin-bottom: 2rem;
+}
+.contact-main h2{
+    padding: auto;
+    text-transform: uppercase;
+    padding-top: 22px;
+    font-weight: 700;
+    color: gray;
+    
+}
+.contact-form-icons{
+    margin-bottom: 2rem;
+}
+
+.contact-form-icons h4{
+    display: inline;
+}
+.contact-form-icons svg{
+    margin: 0px 10px;
+}
+.contact-form-icons h5{
+    margin-bottom: -28px;
+    margin-top: 1rem;
+}
+.contact-content-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+

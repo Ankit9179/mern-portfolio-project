@@ -4,6 +4,7 @@ import AboutPage from "./pages/about/AboutPage";
 import TechSkills from "./pages/techSkills/TechSkills";
 import Projects from "./pages/projcts/Projects";
 import Education from "./pages/education/Education";
+import Contact from "./pages/contact/Contact";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <TechSkills />
         <Projects />
         <Education />
+        <Contact />
       </div>
     </div>
   );
