@@ -1,15 +1,19 @@
-.project-mai-div h1{
+/* .project-main-div{
+    margin-bottom: 2rem;
+} */
+.project-mani-div h1{
     color: rgb(244, 80, 15);
     text-transform: uppercase;
+    
 }
-.project-mai-div hr{
+.project-main-div hr{
     display: flex;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
     max-width: 550px;
 }
-.project-mai-div p{
+.project-main-div p{
     margin-left: 50px;
 }
 /* card project*/

@@ -8,6 +8,7 @@ import {
 } from "react-icons/fc";
 import { GiSkills } from "react-icons/gi";
 import { MdSchool } from "react-icons/md";
+import { Link } from "react-scroll"; //you want go to specific page
 
 const Menus = ({ toggle }) => {
   return toggle ? (
@@ -21,48 +22,151 @@ const Menus = ({ toggle }) => {
       <div className="nav-icons">
         <div className="nav-icon">
           <div className="nav-link">
-            <FcHome /> Home
-          </div>
-          <div className="nav-link">
-            <FcAbout /> About
-          </div>
-          <div className="nav-link">
-            <GiSkills /> Tech Skills
-          </div>
-          <div className="nav-link">
-            <FcVideoProjector /> Projects
-          </div>
-          <div className="nav-link">
-            <MdSchool /> Education
+            <Link
+              to="home"
+              activeClass="active"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              <FcHome /> Home
+            </Link>
           </div>
 
           <div className="nav-link">
-            <FcBusinessContact /> Contact
+            <Link
+              to="about"
+              activeClass="active"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              <FcAbout /> About
+            </Link>
+          </div>
+
+          <div className="nav-link">
+            <Link
+              to="skills"
+              activeClass="active"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              <GiSkills /> Tech Skills
+            </Link>
+          </div>
+
+          <div className="nav-link">
+            <Link
+              to="project"
+              activeClass="active"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              <FcVideoProjector /> Projects
+            </Link>
+          </div>
+
+          <div className="nav-link">
+            <Link
+              to="education"
+              activeClass="active"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              <MdSchool /> Education
+            </Link>
+          </div>
+
+          <div className="nav-link">
+            <Link to="contact" spy={true} smooth={true} duration={500}>
+              <FcBusinessContact /> Contact
+            </Link>
           </div>
         </div>
       </div>
     </>
   ) : (
-    <div className="nav-icon">
-      <div className="nav-link">
-        <FcHome title="Home" />
+    <>
+      <div className="nav-main-div">
+        <div className="nav-icon">
+          <div className="nav-link">
+            <Link
+              to="home"
+              activeClass="active"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              <FcHome />
+            </Link>
+          </div>
+
+          <div className="nav-link">
+            <Link
+              to="about"
+              activeClass="active"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              <FcAbout />
+            </Link>
+          </div>
+
+          <div className="nav-link">
+            <Link
+              to="skills"
+              activeClass="active"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              <GiSkills />
+            </Link>{" "}
+          </div>
+
+          <div className="nav-link">
+            <Link
+              to="project"
+              activeClass="active"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              <FcVideoProjector />
+            </Link>{" "}
+          </div>
+
+          <div className="nav-link">
+            <Link
+              to="education"
+              activeClass="active"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              <MdSchool />
+            </Link>{" "}
+          </div>
+
+          <div className="nav-link">
+            <Link
+              to="contact"
+              activeClass="active"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              <FcBusinessContact />
+            </Link>{" "}
+          </div>
+        </div>
       </div>
-      <div className="nav-link">
-        <FcAbout title="About" />
-      </div>
-      <div className="nav-link">
-        <GiSkills title="Skill" />
-      </div>
-      <div className="nav-link">
-        <FcVideoProjector title="Projects" />
-      </div>
-      <div className="nav-link">
-        <MdSchool />
-      </div>
-      <div className="nav-link">
-        <FcBusinessContact title="Contact" />
-      </div>
-    </div>
+    </>
   );
 };
 

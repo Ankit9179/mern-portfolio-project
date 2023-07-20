@@ -5,7 +5,7 @@ import { AiFillGithub, AiOutlineLinkedin, AiOutlineInstagram } from "react-icons
 const Contact = () => {
     return (
         <>
-            <div className="contact-main">
+            <div className="contact-main" id="contact">
                 <h2 className="text-center">feel free to contact me anytime</h2>
                 <div className="row contact-content-div">
                     <div className="col-md-6 col-sm-12 contact-img">

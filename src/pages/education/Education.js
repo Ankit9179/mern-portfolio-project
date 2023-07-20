@@ -10,7 +10,7 @@ import 'react-vertical-timeline-component/style.min.css';
 const Education = () => {
     return (
         <>
-            <div className="container education-main-div">
+            <div className="container education-main-div" id="education">
                 <h1 className="text-center">My Education</h1>
                 <hr />
                 <VerticalTimeline className="education-vertical-div">

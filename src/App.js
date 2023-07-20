@@ -5,6 +5,8 @@ import TechSkills from "./pages/techSkills/TechSkills";
 import Projects from "./pages/projcts/Projects";
 import Education from "./pages/education/Education";
 import Contact from "./pages/contact/Contact";
+import ScrollToTop from "react-scroll-to-top"; //scroll to top
+
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
       <div className="text-center mb-4 footer ">
         <h4 >made with 😊 ankit &copy; 2023</h4>
       </div>
+
+      <ScrollToTop smooth color="#ffffff" style={{ borderRadius: "80px", backgroundColor: "black" }} />
     </div>
   );
 }
