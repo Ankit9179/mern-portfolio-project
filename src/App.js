@@ -17,6 +17,9 @@ function App() {
         <Education />
         <Contact />
       </div>
+      <div className="text-center mb-4 footer ">
+        <h4 >made with 😊 ankit &copy; 2023</h4>
+      </div>
     </div>
   );
 }
