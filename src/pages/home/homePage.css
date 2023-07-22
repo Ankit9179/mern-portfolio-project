@@ -45,3 +45,18 @@
     padding: 10px;
     transition: 1s;
 }
+
+/* theme icon div*/
+.theme-icon-div{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(107, 107, 110);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: 0px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    cursor: pointer;
+}

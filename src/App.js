@@ -6,25 +6,35 @@ import Projects from "./pages/projcts/Projects";
 import Education from "./pages/education/Education";
 import Contact from "./pages/contact/Contact";
 import ScrollToTop from "react-scroll-to-top"; //scroll to top
-
+import { useTheme } from "./context/ThemContext";
+import Fade from "react-reveal/Fade";
 
 function App() {
+  const [theme] = useTheme();
   return (
-    <div>
-      <Layout />
-      <div className="container">
-        <AboutPage />
-        <TechSkills />
-        <Projects />
-        <Education />
-        <Contact />
-      </div>
-      <div className="text-center mb-4 footer ">
-        <h4 >made with 😊 ankit &copy; 2023</h4>
+    <>
+      <div id={theme}>
+        <Layout />
+        <div className="container">
+          <AboutPage />
+          <TechSkills />
+          <Projects />
+          <Education />
+          <Contact />
+        </div>
+        <Fade top>
+          <div className="text-center pb-4 footer ">
+            <h4>made with 😊 ankit &copy; 2023</h4>
+          </div>
+        </Fade>
       </div>
 
-      <ScrollToTop smooth color="#ffffff" style={{ borderRadius: "80px", backgroundColor: "black" }} />
-    </div>
+      <ScrollToTop
+        smooth
+        color="#ffffff"
+        style={{ borderRadius: "80px", backgroundColor: "black" }}
+      />
+    </>
   );
 }
 
