@@ -30,7 +30,7 @@ const HomePage = () => {
 
         <div className="container home-contant">
           <Fade right>
-            <h4>Hello 👋, I'm ankit </h4>
+            <h4> Hello 👋, I'm ankit </h4>
             <h1>
               <Typewriter
                 options={{
