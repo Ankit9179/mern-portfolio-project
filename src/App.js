@@ -8,12 +8,15 @@ import Contact from "./pages/contact/Contact";
 import ScrollToTop from "react-scroll-to-top"; //scroll to top
 import { useTheme } from "./context/ThemContext";
 import Fade from "react-reveal/Fade";
+import MobailNav from "./components/mobileNav/MobailNav";
+import HomePage from "./pages/home/HomePage";
 
 function App() {
   const [theme] = useTheme();
   return (
     <>
       <div id={theme}>
+        <MobailNav />
         <Layout />
         <div className="container">
           <AboutPage />

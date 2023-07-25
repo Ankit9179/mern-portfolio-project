@@ -1,0 +1,43 @@
+.mobail-nav-div-main{
+    overflow: hidden;
+    position:fixed;
+    top: 0px;
+    z-index: 1;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.mobail-nav-header{
+    padding: 8px;
+    width: 100%;
+    background: #000;
+}
+.mobail-nav-header svg{
+    color: rgb(252, 252, 251);
+}
+.mobail-nav-header svg:hover{
+    cursor: pointer;
+}
+.mobail-title{
+    font-size: 20px;
+    margin: 0px auto;
+    padding-left:15px;
+    color:rgb(247, 162, 57) ;
+    vertical-align: middle;
+    text-transform: uppercase;
+    
+}
+.mobile-nav-icons .nav-icons{
+    height: auto;
+    width: 200px ;
+    background-color: #000;
+    padding: 10px;
+    color: white;
+    padding-left: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+@media(min-width:600px){
+    .mobail-nav-div-main{
+        display: none;
+    }
+}

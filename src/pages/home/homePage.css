@@ -1,16 +1,21 @@
 .home-container{
     color: white;
+    /* background-color: rgb(178, 143, 143); */
     height: 300px;
     /* margin-left: 150px; */
     padding-left: 120px;
-
+    background-color: black;
+}
+.home-content-div {
+        margin-left: 150px;
+        padding-top: 35px;
 }
 .home-contant h4{
-    margin: 15px 0;
+    padding-top: 30px ;
     /* margin-left: 150px; */
 
 }
-.home-contant h1{
+.home-contant h2{
     color: yellow;
     margin-left: 10px;
     /* margin-left: 150px; */

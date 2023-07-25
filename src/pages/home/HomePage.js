@@ -18,45 +18,47 @@ const HomePage = () => {
   return (
     <>
       <div className="container-fluid home-container" id="home">
-        <Wobble>
-          <div className="theme-icon-div" onClick={handleTheme}>
-            {them === "light" ? (
-              <BsFillMoonStarsFill size={30} />
-            ) : (
-              <BsFillSunFill size={30} />
-            )}
-          </div>
-        </Wobble>
-
-        <div className="container home-contant">
-          <Fade right>
-            <h4> Hello 👋, I'm ankit </h4>
-            <h1>
-              <Typewriter
-                options={{
-                  strings: [
-                    "Fullstack Developer !",
-                    "Mern Stack Developer !",
-                    "Ract Developer !",
-                  ],
-                  autoStart: true,
-                  loop: true,
-                }}
-              />
-            </h1>
-          </Fade>
-          <Fade bottom>
-            <div className="home-buttons">
-              <button className="btn btn-hire">Hire Me</button>
-              <a
-                className="btn btn-cv"
-                href={Resume}
-                download={"Resume-Ankit.pdf"}
-              >
-                My Resume{" "}
-              </a>
+        <div className="home-content-div">
+          <Wobble>
+            <div className="theme-icon-div" onClick={handleTheme}>
+              {them === "light" ? (
+                <BsFillMoonStarsFill size={30} />
+              ) : (
+                <BsFillSunFill size={30} />
+              )}
             </div>
-          </Fade>
+          </Wobble>
+
+          <div className="container home-contant">
+            <Fade right>
+              <h4> Hello 👋, I'm ankit </h4>
+              <h2>
+                <Typewriter
+                  options={{
+                    strings: [
+                      "Fullstack Developer !",
+                      "Mern Stack Developer !",
+                      "Ract Developer !",
+                    ],
+                    autoStart: true,
+                    loop: true,
+                  }}
+                />
+              </h2>
+            </Fade>
+            <Fade bottom>
+              <div className="home-buttons">
+                <button className="btn btn-hire">Hire Me</button>
+                <a
+                  className="btn btn-cv"
+                  href={Resume}
+                  download={"Resume-Ankit.pdf"}
+                >
+                  My Resume{" "}
+                </a>
+              </div>
+            </Fade>
+          </div>
         </div>
       </div>
     </>
