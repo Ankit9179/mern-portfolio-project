@@ -7,7 +7,7 @@
     margin-bottom: 10px;
 }
 .mobail-nav-header{
-    padding: 8px;
+    /* padding: 8px; */
     width: 100%;
     background: #000;
 }
@@ -40,4 +40,5 @@
     .mobail-nav-div-main{
         display: none;
     }
+    
 }

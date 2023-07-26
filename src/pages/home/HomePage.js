@@ -31,7 +31,7 @@ const HomePage = () => {
 
           <div className="container home-contant">
             <Fade right>
-              <h4> Hello 👋, I'm ankit </h4>
+              <h4> Hello 👋, I'm Ankit i am a </h4>
               <h2>
                 <Typewriter
                   options={{
@@ -48,7 +48,13 @@ const HomePage = () => {
             </Fade>
             <Fade bottom>
               <div className="home-buttons">
-                <button className="btn btn-hire">Hire Me</button>
+                <a
+                  className="btn btn-hire"
+                  href="https://api.whatsapp.com/send?phone=7828092738"
+                  target="blank"
+                >
+                  Hire Me
+                </a>
                 <a
                   className="btn btn-cv"
                   href={Resume}

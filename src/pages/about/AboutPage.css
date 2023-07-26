@@ -24,7 +24,26 @@
     display: inline;
     border-bottom: 2px solid black;
 }
+.about-contant h2{
+    color: rgb(246, 169, 74);
+}
 .about-contant p{
+    line-height: 2rem;
     text-align: justify;
     padding: 30px 30px;
+}
+
+
+
+/******************** mobail responsiv****************/
+
+@media(max-width:600px){
+    .main-div{
+        /* margin-left: -50px; */
+
+       padding-left: 0px;
+       margin: 35px 35px;
+    }
+    
+    
 }

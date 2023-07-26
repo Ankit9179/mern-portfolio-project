@@ -46,3 +46,22 @@
     font-size: 20px;
     
 }
+
+/*********************** mobail responsive******************/
+@media(max-width:600px){
+    .skills-container-div{
+        
+        padding-left: 0px;
+        
+    }
+    .skills-container-div h1{
+        font-size: 3rem;
+        margin-top: 50px;
+        
+    }
+    .skills-container-div p{
+        margin-top: 50px;
+        font-size: 20px;
+        text-align: center;
+    }
+}

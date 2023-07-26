@@ -1,8 +1,8 @@
-/* .project-main-div{
+.project-main-div{
     margin-bottom: 2rem;
-} */
-.project-mani-div h1{
-    color: rgb(244, 80, 15);
+}
+.project-mani-div,h1{
+    color: rgb(44, 6, 88);
     text-transform: uppercase;
     
 }
@@ -74,3 +74,16 @@
     transition: all 0.5s ease;
 }
 
+
+/*********************** mobail responsiv***************************/
+@media(max-width:600px){
+    .project-main-div p{
+        margin-left: 0px;
+    }
+    .card-div{
+        margin: 50px auto;
+       width: 100%;
+    }
+   
+   
+}

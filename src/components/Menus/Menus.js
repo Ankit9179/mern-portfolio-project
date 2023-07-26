@@ -1,5 +1,6 @@
 import React from "react";
 import "./Menus.css";
+import pic from "../../assets/Images/menu-pic1.jpg";
 import Zoom from "react-reveal/Zoom"; //animation with the help of react-reveal
 import Fade from "react-reveal/Fade"; //animation with the help of react-revea
 
@@ -21,10 +22,7 @@ const Menus = ({ toggle }) => {
           <>
             <Zoom>
               <div className="navebar-profile-pic">
-                <img
-                  src="https://newprofilepic.photo-cdn.net//assets/images/article/profile.jpg?4d355bd"
-                  alt="profile pic"
-                />
+                <img src={pic} alt="profile pic" />
               </div>
             </Zoom>
             <Fade left>

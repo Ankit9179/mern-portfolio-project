@@ -26,7 +26,7 @@ function App() {
           <Contact />
         </div>
         <Fade top>
-          <div className="text-center pb-4 footer ">
+          <div className="text-center pb-4  footer ">
             <h4>made with 😊 ankit &copy; 2023</h4>
           </div>
         </Fade>

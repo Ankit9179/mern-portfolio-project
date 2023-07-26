@@ -13,23 +13,20 @@ const Projects = () => {
         <hr />
         <Fade right>
           <p className="text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-            nostrum alias fuga amet, molestias temporibus tempore maxime minima
-            reiciendis, quidem dolorum consequuntur autem accusamus officiis
-            culpa rerum quasi eveniet placeat?incuding programming languages ,
-            frameworks , databases ,frontend and backend bevelopment tools , and
-            Apis
+            My top three mern stack projects , if you want to use my web
+            projects than you can hit view button
           </p>
         </Fade>
         <div className=" mb-4 mt-4 project-card-div  ">
           <div className="row" d-flex>
             <Spin>
               <div className="col-md-4 project-card ">
-                <div className="card" style={{ width: "18rem" }}>
+                <div className="card card-div" style={{ width: "18rem" }}>
                   <span>Full Stack</span>
                   <img
                     src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2022/11/App-design-trends-2023.jpg?auto=format&q=60&w=1860&h=1860&fit=crop&crop=faces"
-                    alt="..."
+                    alt="pic"
+                    height={"240px"}
                   />
                   <div className="card-body d-flex project-use-skills">
                     <p>MongoDB</p>
@@ -41,16 +38,16 @@ const Projects = () => {
                     <h3>Blog App</h3>
                   </div>
                   <div className="project-view-div">
-                    <a href="#">View</a>
+                    <a href="https://blog-1hj5.onrender.com/">View</a>
                   </div>
                 </div>
               </div>
 
               <div className="col-md-4 project-card ">
-                <div className="card" style={{ width: "18rem" }}>
+                <div className="card card-div" style={{ width: "18rem" }}>
                   <span>Full Stack</span>
                   <img
-                    src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2022/11/App-design-trends-2023.jpg?auto=format&q=60&w=1860&h=1860&fit=crop&crop=faces"
+                    src="https://www.reactive-executive.com/wp-content/uploads/2023/02/quel-est-le-role-du-manager-management-et-sa-hierarchie-Reactive-Executive.webp"
                     alt="..."
                   />
                   <div className="card-body d-flex project-use-skills">
@@ -60,20 +57,20 @@ const Projects = () => {
                     <p>NodeJs</p>
                   </div>
                   <div className="text-center">
-                    <h3>Blog App</h3>
+                    <h3>Expense Management System</h3>
                   </div>
                   <div className="project-view-div">
-                    <a href="#">View</a>
+                    <a href="https://tiny-fedora-moth.cyclic.app/login">View</a>
                   </div>
                 </div>
               </div>
 
               <div className="col-md-4 project-card ">
-                <div className="card" style={{ width: "18rem" }}>
+                <div className="card card-div" style={{ width: "18rem" }}>
                   <span>Full Stack</span>
                   <img
-                    src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2022/11/App-design-trends-2023.jpg?auto=format&q=60&w=1860&h=1860&fit=crop&crop=faces"
-                    alt="..."
+                    src="https://cdn.dribbble.com/userupload/3893934/file/original-c91e5bd66978749ff418b53442ce382b.png?resize=400x0"
+                    alt="pic"
                   />
                   <div className="card-body d-flex project-use-skills">
                     <p>MongoDB</p>
@@ -82,10 +79,12 @@ const Projects = () => {
                     <p>NodeJs</p>
                   </div>
                   <div className="text-center">
-                    <h3>Blog App</h3>
+                    <h3>Portfolio</h3>
                   </div>
                   <div className="project-view-div">
-                    <a href="#">View</a>
+                    <a href="https://github.com/Ankit9179?tab=repositories">
+                      View
+                    </a>
                   </div>
                 </div>
               </div>

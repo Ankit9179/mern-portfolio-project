@@ -16,7 +16,7 @@ const Education = () => {
     <>
       <div className="container education-main-div" id="education">
         <Shake>
-          <h1 className="text-center">My Education</h1>
+          <h1 className="text-center pt-5">My Education</h1>
         </Shake>
         <hr />
         <VerticalTimeline className="education-vertical-div">

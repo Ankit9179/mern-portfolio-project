@@ -13,10 +13,7 @@ const TechSkills = () => {
           <h1>TECH SKILLS</h1>
         </Jump>
         <hr />
-        <p>
-          👉 incuding programming languages , frameworks , databases ,frontend
-          and backend bevelopment tools , and Apis
-        </p>
+        <p>👉 I use these technical skills to build web projects</p>
         <div className="row card-container">
           {TechSkillsList.map((items) => (
             <Fade left>
