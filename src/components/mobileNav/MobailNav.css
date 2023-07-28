@@ -5,6 +5,7 @@
     z-index: 1;
     width: 100%;
     margin-bottom: 10px;
+    padding-bottom: 20px;
 }
 .mobail-nav-header{
     /* padding: 8px; */
@@ -40,5 +41,8 @@
     .mobail-nav-div-main{
         display: none;
     }
-    
+    .mobail-nav-header{
+        /* padding: 8px; */
+        width: 80%;
+    }
 }

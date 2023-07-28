@@ -2,6 +2,7 @@
     color: white;
     /* background-color: rgb(178, 143, 143); */
     height: 300px;
+
     /* margin-left: 150px; */
     padding-left: 120px;
     background-color: black;
@@ -70,19 +71,35 @@
 
 @media(max-width:600px){
     .home-container{
+        margin: 0;
+        /* width: 100%; */
+        padding: 0;
+        /* width: 400px; */
         display: flex;
         justify-content: start;
         align-items: center;
+        background-color: rgb(252, 250, 250);
+        color: rgb(15, 15, 15);
+
         /* margin-left: -100px; */
 
     }
     .home-content-div {
         margin-left: 0px;
+        /* width: 300px; */
+    }
+    .home-contant h2{
+        color: rgb(203, 5, 248);
+        /* margin-left: 10px; */
+        /* margin-left: 150px; */
+    
     }
     .home-content-div h4 {
         font-size: 25px;
     }
     .home-content-div h2 {
-        font-size: 30px;
+        font-size: 30;
+
+        
     }
 }

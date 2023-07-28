@@ -18,7 +18,7 @@ const Contact = () => {
                 <h2 className="text-center">feel free to contact me anytime</h2>
                 <div className="row contact-content-div">
                     <div className="col-md-6 col-sm-12 contact-img">
-                        <div>
+                        <div className="contact-img-div">
                             <img
                                 src="https://www.achintya.co.in/app_themes/images/contact-img.svg"
                                 alt="img"

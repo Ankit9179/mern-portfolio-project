@@ -14,15 +14,15 @@ const TechSkills = () => {
         </Jump>
         <hr />
         <p>👉 I use these technical skills to build web projects</p>
-        <div className="row card-container">
+        <div className="row card-container box-div-skill">
           {TechSkillsList.map((items) => (
             <Fade left>
-              <div className="col-md-4" key={items._id}>
-                <div className="card m-2 card-card ">
-                  <div className="card-content">
-                    <div className="card-body">
-                      <div className="media d-flex justify-content-center">
-                        <div className="alig-self-content">
+              <div className="col-md-4 " key={items._id}>
+                <div className="card m-2 card-card  ">
+                  <div className="card-content ">
+                    <div className="card-body ">
+                      <div className="media d-flex justify-content-center ">
+                        <div className="alig-self-content ">
                           {<items.icon />}
                         </div>
                         <div className="media-body">{items.Name}</div>
