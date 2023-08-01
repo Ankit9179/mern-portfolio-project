@@ -9,6 +9,7 @@ import {
 
 const Contact = () => {
   const [inputs, setInputs] = useState({ name: "", email: "", message: "" });
+
   //////////////////////////////////////////////////////////////////////////////////////////////////////////////
   const inputsHandle = (e) => {
     e.preventDefault();
@@ -17,7 +18,7 @@ const Contact = () => {
 
   ///////////////////////////////////////////////////////////////////////////////////////////////////
   const sendDataToBackend = async (e) => {
-    e.preventDefault();
+    // e.preventDefault();
     try {
       const { data } = await axios.post(
         "https://portfolio-project-server-03wy.onrender.com/api/v1/portfolio/contact",
@@ -68,7 +69,7 @@ const Contact = () => {
             <form
               onSubmit={sendDataToBackend}
               className="form"
-              // action="https://formspree.io/f/xzbldppp"
+              action="https://formspree.io/f/xzbldppp"
               method="POST"
             >
               <div className="mb-3">
