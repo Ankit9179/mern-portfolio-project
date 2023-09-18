@@ -18,7 +18,7 @@ const Projects = () => {
           </p>
         </Fade>
         <div className=" mb-4 mt-4 project-card-div  ">
-          <div className="row" d-flex>
+          <div className=" row projects-divs d-flex">
             <Spin>
               <div className="col-md-4 project-card mt-4  ">
                 <div className="card card-div" style={{ width: "18rem" }}>
@@ -43,7 +43,7 @@ const Projects = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-md-4 project-card mt-4  ">
+              {/* <div className="col-md-4 project-card mt-4  ">
                 <div className="card card-div" style={{ width: "18rem" }}>
                   <span>Full Stack</span>
                   <img
@@ -65,7 +65,7 @@ const Projects = () => {
                     </a>
                   </div>
                 </div>
-              </div>
+              </div> */}
               <div className="col-md-4 project-card mt-4 ">
                 <div className="card card-div" style={{ width: "18rem" }}>
                   <span>Full Stack</span>

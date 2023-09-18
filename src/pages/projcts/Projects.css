@@ -77,6 +77,9 @@
 
 /*********************** mobail responsiv***************************/
 @media(max-width:600px){
+    .projects-divs{
+        margin-left: 50px;;
+    }
     .project-main-div p{
         margin-left: 0px;
     }
