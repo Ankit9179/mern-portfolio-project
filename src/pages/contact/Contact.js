@@ -105,7 +105,7 @@ const Contact = () => {
                   required
                   cols="48"
                   rows="3"
-                  placeholder=" wright something"
+                  placeholder=" write something"
                 ></textarea>
               </div>
 
