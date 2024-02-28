@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.a674560f.css",
-    "main.js": "/static/js/main.218f5770.js",
+    "main.js": "/static/js/main.5d156adc.js",
     "static/media/menu-pic1.jpg": "/static/media/menu-pic1.f0cb97beab8fcdad1e51.jpg",
     "static/media/resumE.pdf": "/static/media/resumE.d578306b71651ded41f8.pdf",
     "index.html": "/index.html",
     "main.a674560f.css.map": "/static/css/main.a674560f.css.map",
-    "main.218f5770.js.map": "/static/js/main.218f5770.js.map"
+    "main.5d156adc.js.map": "/static/js/main.5d156adc.js.map"
   },
   "entrypoints": [
     "static/css/main.a674560f.css",
-    "static/js/main.218f5770.js"
+    "static/js/main.5d156adc.js"
   ]
 }
