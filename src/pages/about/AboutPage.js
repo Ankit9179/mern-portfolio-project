@@ -15,14 +15,15 @@ const AboutPage = () => {
             <div className="col-md-6 about-contant">
               <h1>About Me</h1>
               <p>
-                <h2 style={{ display: "inline-block" }}>Hello</h2> everyone, my
-                name is ankit i don't have any type of technical degree because
-                i have done my bachelor's in B.sc (Mathematics). but i know very
-                well about web development.nowadays i'm learning MERN stack from
-                youtube.if i talk about my skills, so i have knowledge about
-                these fields html , css , Javascript React js library ,
-                Bootstrap framework for frontend , i use Node js and MongoDB
-                database for creating server .
+                <h2 style={{ display: "inline-block" }}>Hello</h2> everyone, As
+                an aspiring MERE Stack Developer, I am passionate about building
+                dynamic and responsive web applications using a modern tech
+                stack. With a solid foundation in React.js, MongoDB, HTML, CSS,
+                JavaScript, and Node.js, I am equipped to tackle complex coding
+                challenges and deliver high-quality software solutions. I am
+                excited to connect with fellow professionals, explore new
+                opportunities, and contribute to exciting and impactful
+                projects. Let's connect and collaborate!
                 {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
                 excepturi dolore provident adipisci labore amet sapiente rem
                 porro fugiat culpa nesciunt ipsa architecto delectus possimus

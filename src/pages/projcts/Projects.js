@@ -20,7 +20,28 @@ const Projects = () => {
         <div className=" mb-4 mt-4 project-card-div  ">
           <div className=" row projects-divs d-flex">
             <Spin>
-              <div className="col-md-4 project-card mt-4  ">
+              <div className="col-md-3 project-card mt-4  ">
+                <div className="card card-div" style={{ width: "18rem" }}>
+                  <span>Full Stack</span>
+                  <img
+                    src="https://www.wikihow.com/images/thumb/9/90/Ask-Questions-on-Facebook-Messenger-on-Android-Step-1.jpg/v4-460px-Ask-Questions-on-Facebook-Messenger-on-Android-Step-1.jpg"
+                    alt="pic"
+                  />
+                  <div className="card-body d-flex project-use-skills">
+                    <p>MongoDB</p>
+                    <p>Express</p>
+                    <p>React</p>
+                    <p>NodeJs</p>
+                  </div>
+                  <div className="text-center">
+                    <h3>A chat</h3>
+                  </div>
+                  <div className="project-view-div">
+                    <a href="https://caht-app-ld.onrender.com">View</a>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-3  project-card mt-4  ">
                 <div className="card card-div" style={{ width: "18rem" }}>
                   <span>Full Stack</span>
                   <img
@@ -43,30 +64,8 @@ const Projects = () => {
                   </div>
                 </div>
               </div>
-              {/* <div className="col-md-4 project-card mt-4  ">
-                <div className="card card-div" style={{ width: "18rem" }}>
-                  <span>Full Stack</span>
-                  <img
-                    src="https://cdn.dribbble.com/userupload/3893934/file/original-c91e5bd66978749ff418b53442ce382b.png?resize=400x0"
-                    alt="pic"
-                  />
-                  <div className="card-body d-flex project-use-skills">
-                    <p>MongoDB</p>
-                    <p>Express</p>
-                    <p>React</p>
-                    <p>NodeJs</p>
-                  </div>
-                  <div className="text-center">
-                    <h3>Portfolio</h3>
-                  </div>
-                  <div className="project-view-div">
-                    <a href="https://portfolio-client-4air.onrender.com">
-                      View
-                    </a>
-                  </div>
-                </div>
-              </div> */}
-              <div className="col-md-4 project-card mt-4 ">
+
+              <div className="col-md-3 project-card mt-4 ">
                 <div className="card card-div" style={{ width: "18rem" }}>
                   <span>Full Stack</span>
                   <img
@@ -88,7 +87,7 @@ const Projects = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-md-4 project-card mt-4 ">
+              <div className="col-md-3 project-card mt-4 ">
                 <div className="card card-div" style={{ width: "18rem" }}>
                   <span>Full Stack</span>
                   <img
