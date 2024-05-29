@@ -10,7 +10,7 @@ const AboutPage = () => {
         <div className="main-div" id="about">
           <div className="row about-content">
             <div className="col-md-6 col-xl-6 col-lg-6 col-xs-12 img-div">
-              <img src={pic} alt="about pic" />
+              <img src={pic} alt="about pic " />
             </div>
             <div className="col-md-6 about-contant">
               <h1>About Me</h1>
