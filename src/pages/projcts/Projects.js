@@ -148,17 +148,13 @@ const Projects = () => {
                     alt="pic"
                     className="card-img-top"
                   />
-                  <div className="card-body d-flex project-use-skills">
-                    <p>MongoDB</p>
-                    <p>Express</p>
-                    <p>React</p>
-                    <p>NodeJs</p>
-                  </div>
+
                   <div className="text-center">
                     <h3>A Chat</h3>
                   </div>
                   <div className="project-view-div">
                     <a href="https://caht-app-ld.onrender.com">View</a>
+                    <a href="https://github.com/Ankit9179/chat-yt-app">Code</a>
                   </div>
                 </div>
               </div>
@@ -170,18 +166,16 @@ const Projects = () => {
                     alt="pic"
                     className="card-img-top"
                   />
-                  <div className="card-body d-flex project-use-skills">
-                    <p>MongoDB</p>
-                    <p>Express</p>
-                    <p>React</p>
-                    <p>NodeJs</p>
-                  </div>
+
                   <div className="text-center">
                     <h3>E-commerce</h3>
                   </div>
                   <div className="project-view-div">
                     <a href="https://e-commerce-mern-client.onrender.com">
                       View
+                    </a>
+                    <a href="https://github.com/Ankit9179/E-Commerce-Mern">
+                      Code
                     </a>
                   </div>
                 </div>
@@ -195,17 +189,15 @@ const Projects = () => {
                     alt="pic"
                     className="card-img-top"
                   />
-                  <div className="card-body d-flex project-use-skills">
-                    <p>MongoDB</p>
-                    <p>Express</p>
-                    <p>React</p>
-                    <p>NodeJs</p>
-                  </div>
+
                   <div className="text-center">
                     <h3>Blog App</h3>
                   </div>
                   <div className="project-view-div">
                     <a href="https://blog-1hj5.onrender.com/">View</a>
+                    <a href="https://github.com/Ankit9179/Blog-app-mern-project">
+                      Code
+                    </a>
                   </div>
                 </div>
               </div>
@@ -217,17 +209,15 @@ const Projects = () => {
                     alt="pic"
                     className="card-img-top"
                   />
-                  <div className="card-body d-flex project-use-skills">
-                    <p>MongoDB</p>
-                    <p>Express</p>
-                    <p>React</p>
-                    <p>NodeJs</p>
-                  </div>
+
                   <div className="text-center">
                     <h3>Expense Management System</h3>
                   </div>
                   <div className="project-view-div">
                     <a href="https://tiny-fedora-moth.cyclic.app/login">View</a>
+                    <a href="https://github.com/Ankit9179/Expense-Management-app-mern">
+                      Code
+                    </a>
                   </div>
                 </div>
               </div>
