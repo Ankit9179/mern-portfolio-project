@@ -5,7 +5,7 @@ import Fade from "react-reveal/Fade";
 import Wobble from "react-reveal/Wobble";
 
 import Typewriter from "typewriter-effect"; // new thing
-import Resume from "../../assets/docs/resumeNew.pdf"; // resume pdf file
+import Resume from "../../assets/docs/resumeFinally.pdf"; // resume pdf file
 import { BsFillMoonStarsFill, BsFillSunFill } from "react-icons/bs";
 
 const HomePage = () => {

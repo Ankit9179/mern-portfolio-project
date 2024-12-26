@@ -124,6 +124,10 @@
     margin-left: 40px;
     flex-wrap: wrap;
   }
+  /* .projects-divs img {
+    height: 250px;;
+    border: none;
+  } */
   
   .project-main-div h1 {
     color: rgb(44, 6, 88);

@@ -16,7 +16,7 @@ const AboutPage = () => {
               <h1>About Me</h1>
               <p>
                 <h2 style={{ display: "inline-block" }}>Hello</h2> everyone, As
-                an aspiring MERE Stack Developer, I am passionate about building
+                an aspiring MERN Stack Developer, I am passionate about building
                 dynamic and responsive web applications using a modern tech
                 stack. With a solid foundation in React.js, MongoDB, HTML, CSS,
                 JavaScript, and Node.js, I am equipped to tackle complex coding
