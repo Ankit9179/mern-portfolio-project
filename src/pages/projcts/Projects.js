@@ -150,7 +150,7 @@ const Projects = () => {
                   />
 
                   <div className="text-center">
-                    <h3>A Chat</h3>
+                    <h3>Vlogify</h3>
                   </div>
                   <div className="project-view-div">
                     <a href="https://caht-app-ld.onrender.com">View</a>

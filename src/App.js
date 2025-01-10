@@ -33,6 +33,7 @@ function App() {
       </div>
 
       <ScrollToTop
+        className="go-to-top"
         smooth
         color="#ffffff"
         style={{ borderRadius: "80px", backgroundColor: "black" }}

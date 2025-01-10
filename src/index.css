@@ -13,3 +13,21 @@ body{
   background-color: rgb(45, 2, 86);
   color: white;
 }
+
+.go-to-top{
+animation: myAnimation 9s infinite;
+}
+@keyframes myAnimation {
+  0% {
+    transform: rotate(0deg);
+  }
+  33% {
+    transform: rotate(120deg);
+  }
+  66% {
+    transform: rotate(240deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
